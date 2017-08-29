@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B933B5231F4615EF00DBE67C /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933B5221F4615EF00DBE67C /* Viagem.swift */; };
+		B933B53E1F4625B900DBE67C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933B53D1F4625B900DBE67C /* TableViewCell.swift */; };
+		B933B5451F46298400DBE67C /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = B933B5401F46298400DBE67C /* img1.png */; };
+		B933B5461F46298400DBE67C /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B933B5411F46298400DBE67C /* img2.jpg */; };
+		B933B5471F46298400DBE67C /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B933B5421F46298400DBE67C /* img3.jpg */; };
+		B933B5481F46298400DBE67C /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B933B5431F46298400DBE67C /* img4.jpg */; };
+		B933B5491F46298400DBE67C /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B933B5441F46298400DBE67C /* img5.jpg */; };
+		B933B54B1F462C2900DBE67C /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933B54A1F462C2900DBE67C /* ViagemDAO.swift */; };
 		B9704FE21F439B7F0055D8BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9704FE11F439B7F0055D8BC /* AppDelegate.swift */; };
 		B9704FE41F439B7F0055D8BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9704FE31F439B7F0055D8BC /* ViewController.swift */; };
 		B9704FE71F439B7F0055D8BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9704FE51F439B7F0055D8BC /* Main.storyboard */; };
@@ -15,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B933B5221F4615EF00DBE67C /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		B933B53D1F4625B900DBE67C /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B933B5401F46298400DBE67C /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		B933B5411F46298400DBE67C /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		B933B5421F46298400DBE67C /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		B933B5431F46298400DBE67C /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		B933B5441F46298400DBE67C /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
+		B933B54A1F462C2900DBE67C /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViagemDAO.swift; sourceTree = "<group>"; };
 		B9704FDE1F439B7F0055D8BC /* Alura Viagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alura Viagens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9704FE11F439B7F0055D8BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9704FE31F439B7F0055D8BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B933B53F1F46298400DBE67C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B933B5401F46298400DBE67C /* img1.png */,
+				B933B5411F46298400DBE67C /* img2.jpg */,
+				B933B5421F46298400DBE67C /* img3.jpg */,
+				B933B5431F46298400DBE67C /* img4.jpg */,
+				B933B5441F46298400DBE67C /* img5.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		B9704FD51F439B7F0055D8BC = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +84,10 @@
 			children = (
 				B9704FE11F439B7F0055D8BC /* AppDelegate.swift */,
 				B9704FE31F439B7F0055D8BC /* ViewController.swift */,
+				B933B53D1F4625B900DBE67C /* TableViewCell.swift */,
+				B933B5221F4615EF00DBE67C /* Viagem.swift */,
+				B933B54A1F462C2900DBE67C /* ViagemDAO.swift */,
+				B933B53F1F46298400DBE67C /* Assets */,
 				B9704FE51F439B7F0055D8BC /* Main.storyboard */,
 				B9704FE81F439B7F0055D8BC /* Assets.xcassets */,
 				B9704FEA1F439B7F0055D8BC /* LaunchScreen.storyboard */,
@@ -123,7 +155,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B933B5481F46298400DBE67C /* img4.jpg in Resources */,
+				B933B5491F46298400DBE67C /* img5.jpg in Resources */,
 				B9704FEC1F439B7F0055D8BC /* LaunchScreen.storyboard in Resources */,
+				B933B5471F46298400DBE67C /* img3.jpg in Resources */,
+				B933B5461F46298400DBE67C /* img2.jpg in Resources */,
+				B933B5451F46298400DBE67C /* img1.png in Resources */,
 				B9704FE91F439B7F0055D8BC /* Assets.xcassets in Resources */,
 				B9704FE71F439B7F0055D8BC /* Main.storyboard in Resources */,
 			);
@@ -136,7 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B933B53E1F4625B900DBE67C /* TableViewCell.swift in Sources */,
+				B933B54B1F462C2900DBE67C /* ViagemDAO.swift in Sources */,
 				B9704FE41F439B7F0055D8BC /* ViewController.swift in Sources */,
+				B933B5231F4615EF00DBE67C /* Viagem.swift in Sources */,
 				B9704FE21F439B7F0055D8BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +301,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Alura Viagens/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "alura.Alura-Viagens";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +313,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Alura Viagens/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "alura.Alura-Viagens";
 				PRODUCT_NAME = "$(TARGET_NAME)";
