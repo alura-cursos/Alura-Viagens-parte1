@@ -45,6 +45,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.imagemViagem.layer.cornerRadius = 10
         cell.imagemViagem.layer.masksToBounds = true
         
+        
         return cell
     }
 
